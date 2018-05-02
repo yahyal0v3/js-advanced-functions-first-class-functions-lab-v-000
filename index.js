@@ -7,7 +7,7 @@ const returnLastTwoDrivers = function (array) { return array.slice(-2) }
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
 function createFareMultiplier(multiplier) {
-  function multiplyingByInput(num) {
+  return function multiplyingByInput(num) {
     return num * multiplier
   }
 }
