@@ -12,4 +12,4 @@ function createFareMultiplier(multiplier) {
   }
 }
 
-const fareDoubler = createFareMultiplier(4)
+const fareDoubler = createFareMultiplier(2)
